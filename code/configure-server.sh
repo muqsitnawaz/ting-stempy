@@ -1,0 +1,110 @@
+
+
+# Get our public ip address
+MY_PUBLIC_IP=$(wget http://ipinfo.io/ip -qO -)
+
+sudo kill `sudo lsof -t -i:9050`
+sudo kill `sudo lsof -t -i:9150`
+sudo kill `sudo lsof -t -i:9250`
+
+# going to tor dir
+cd tor
+
+# Generate torrc files
+cat <<EOF > ./configs/torrc-client
+AvoidDiskWrites 1
+ControlPort 9051
+CookieAuthentication 1
+CircuitBuildTimeout 10
+LearnCircuitBuildTimeout 0
+DataDirectory /home/muqsitnawaz/Downloads/Project/release/code/tor/data/client/
+DirPort 9030
+DirReqStatistics 0
+UseMicrodescriptors 0
+Log notice file /home/muqsitnawaz/Downloads/Project/release/code/tor/logs/client.log
+SocksListenAddress 127.0.0.1
+SocksPort 9050
+WarnUnsafeSocks 0
+ExitPolicy reject *:*
+PublishServerDescriptor 0
+RunAsDaemon 1
+EOF
+
+cat <<EOF > ./configs/torrc-w
+AvoidDiskWrites 1
+ControlPort 9151
+CookieAuthentication 1
+LearnCircuitBuildTimeout 0
+DataDirectory /home/muqsitnawaz/Downloads/Project/release/code/tor/data/w/
+ORPort 9001
+DirReqStatistics 0
+UseMicroDescriptors 0
+DownloadExtraInfo 1
+SocksListenAddress 127.0.0.1
+SocksPort 9150
+WarnUnsafeSocks 0
+ExitPolicy accept $MY_PUBLIC_IP:*
+ExitPolicy reject *:*
+RunAsDaemon 1
+PublishServerDescriptor 1
+EOF
+
+cat <<EOF > ./configs/torrc-z
+AvoidDiskWrites 1
+ControlPort 9251
+CookieAuthentication 1
+LearnCircuitBuildTimeout 0
+DataDirectory /home/muqsitnawaz/Downloads/Project/release/code/tor/data/z/
+ORPort 9002
+DirReqStatistics 0
+UseMicroDescriptors 0
+DownloadExtraInfo 1
+SocksListenAddress 127.0.0.1
+SocksPort 9250
+WarnUnsafeSocks 0
+ExitPolicy accept $MY_PUBLIC_IP:*
+ExitPolicy reject *:*
+RunAsDaemon 1
+PublishServerDescriptor 1
+EOF
+
+# Start Tor 
+echo "---------starting tor-----------------"
+tor-0.2.3.25-patched/src/or/tor -f /home/muqsitnawaz/Downloads/Project/release/code/tor/configs/torrc-client
+tor-0.2.4.22/src/or/tor -f /home/muqsitnawaz/Downloads/Project/release/code/tor/configs/torrc-w
+tor-0.2.4.22/src/or/tor -f /home/muqsitnawaz/Downloads/Project/release/code/tor/configs/torrc-z
+cd ..
+echo "---------starting done-----------------"
+
+
+# Give them some time to start up
+sleep 5
+
+# Determine the fingerprint of W and Z 
+echo "---------determining fingerprint-----------------"
+FP_W=$(cat ./.tor/w/fingerprint | cut -f2 -d" ")
+FP_Z=$(cat ./.tor/z/fingerprint | cut -f2 -d" ")
+echo "---------determining fingerprint done-----------------"
+
+############
+### TING ###
+############
+
+# Generate default tingrc file
+cat <<EOF > ./tingrc
+SocksPort 9050
+ControllerPort 9051
+SourceAddr $MY_PUBLIC_IP
+DestinationAddr $MY_PUBLIC_IP
+DestinationPort 16667
+NumSamples 200
+NumRepeats 1
+RelayList internet
+RelayCacheTime 24
+W $MY_PUBLIC_IP,$FP_W
+Z $MY_PUBLIC_IP,$FP_Z
+SocksTimeout 60
+MaxCircuitBuildAttempts 5
+EOF
+
+

@@ -1,0 +1,70 @@
+Overview
+========
+
+This directory contains all of the data files used to create the figures in our IMC
+2015 paper. 
+
+
+
+List of Figures
+===============
+
+Figure 3: CDF of Ting latencies compared to Ping latencies
+  > est-real-all.out 
+
+  ip1 ip2 ting ping relative-error additive-error additive-error-normalized
+
+
+Figure 4: Figure 3 broken into 4 CDFs binned by ping-measured latency
+  > est-real-all.out
+
+
+Figure 5: Forwarding delays measured on the PlanetLab relays using TCP and ICMP
+  > forwarding-boxplot.out
+
+  pair# min_icmp 1q_icmp median_icmp 3q_icmp max_icmp min_tcp 1q_tcp median_tcp 3q_tcp max_tcp
+
+
+Figure 6: Cumulative number of tings necessary to reach given thresholds of min
+  > cumulative-tings.out
+  (each column represents # number of samples required to get within X of min)
+
+  10% 5% 1% 1ms exact
+
+
+Figure 7: Comparison of 200 vs. 1000 Ting samples
+  > 1.out (200 samples) compared to 2.out (1000 samples)
+
+  (same format as est-real-all.out)
+
+
+Figure 8: Relationship between geographic distance and ting-measured RTTs
+  > gcd-vs-rtt.out
+
+  distance rtt ip1 ip2 
+  
+  (where distance is great circle distance measured in kilometers)
+
+
+Figure 9: Coefficient of variation of latencies measured by Ting
+  > cv.out
+
+  ip1 ip2 coefficient_of_variation
+
+
+Figure 10: Boxplot of variation of latencies measured by Ting
+  > boxplot_var.out
+
+  pair# min 1q median 3q max ip1 ip2 
+
+
+Figures 11-17: coming soon
+
+
+Figure 18: Number of total relays and unique /24s in the Tor network over time
+  > 24-over-time.out
+
+  year-month-day-hour #slash_24s #total
+
+
+

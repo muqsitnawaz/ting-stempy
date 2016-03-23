@@ -1,0 +1,70 @@
+Overview
+========
+
+This dataset was used to evaluate Ting's accuracy in our IMC 2015 paper.
+
+We ran Tor relays on 31 PlanetLab nodes (whose locations and ips can be found in
+planetlab-nodes.txt), measured the latency between all 930 pairs of nodes using
+ting, and then compared this to the latency measured using ping. 
+
+
+
+
+Data Files
+==========
+
+This section describes the format of each data file in this directory.
+
+
+[planetlab-nodes.txt]: A list of the 31 PlanetLab nodes used to run the Tor
+relays for this experiment. 
+
+  ip hostname
+
+j
+[planetlab-pings.txt]: Standard statistics reported by the ping tool for 50
+pings between each pair of nodes.
+
+  ip1 ip2 min/mean/max/std_dev
+
+
+[planetlab-tings.json]: Full json output of ting tool for 50 samples of each
+circuit between each pair of nodes. 
+
+  {
+    "measurements": { 
+      "x" : [...], // samples from circuit wxz
+      "y" : [...], // samples from circuit wyz
+      "xy" : [...] // samples from circuit wxyz
+    },
+    "ips" : [ip_w, ip_x, ip_y, ip_z],
+    "fps" : [fp_w, fp_x, fp_y, fp_z], // fp = unique tor fingerprint id
+    "time" : {
+      "build_x" : ..., // time to build circuit wxz
+      "ting_x" : ..., // time to measure circuit wxz
+      "build_y" : ...,
+      "ting_y" : ...,
+      "build_xy" : ...,
+      "ting_xy" : ...,
+      "total" : ...
+    },
+    "estimate" : ... // min(xy) - .5min(x) - .5min(y), used in planetlab-summary.txt
+  }
+
+        
+[planetlab-summary.txt]: A summary of the minimum ping and ting measurements for
+each pair (ip1,ip2). 
+
+  ip1 ip2 ting ping relative-error additive-error additive-error-normalized
+
+    relative-error = ting / ping
+    additive-error = ting - ping
+    additive-error-normalized = (ting-ping)/ping
+
+
+
+
+Measurement Details
+===================
+
+All measurements were taken on November 9, 2014.

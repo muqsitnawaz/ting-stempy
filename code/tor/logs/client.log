@@ -1,0 +1,572 @@
+Mar 23 19:22:42.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening new log file.
+Mar 23 19:22:42.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 19:22:42.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 19:22:42.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 19:22:42.000 [notice] Reloaded microdescriptor cache.  Found 0 descriptors.
+Mar 23 19:22:42.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 19:22:43.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 19:22:43.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 2 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 19:22:43.000 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+Mar 23 19:22:46.000 [notice] Bootstrapped 15%: Establishing an encrypted directory connection.
+Mar 23 19:22:46.000 [notice] Bootstrapped 20%: Asking for networkstatus consensus.
+Mar 23 19:22:46.000 [notice] Bootstrapped 25%: Loading networkstatus consensus.
+Mar 23 19:22:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 19:22:52.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 19:22:53.000 [notice] Bootstrapped 45%: Asking for relay descriptors.
+Mar 23 19:22:53.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 0/7143 usable descriptors.
+Mar 23 19:22:53.000 [notice] We'd like to launch a circuit to handle a connection, but we already have 32 general-purpose client circuits pending. Waiting until some finish.
+Mar 23 19:22:56.000 [notice] Bootstrapped 50%: Loading relay descriptors.
+Mar 23 19:22:56.000 [notice] Bootstrapped 51%: Loading relay descriptors.
+Mar 23 19:22:56.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 96/7143 usable descriptors.
+Mar 23 19:22:56.000 [notice] Bootstrapped 52%: Loading relay descriptors.
+Mar 23 19:22:56.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 184/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 54%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 273/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 55%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 364/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 57%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 460/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 59%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 556/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 60%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 652/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 62%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 748/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 63%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 838/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 65%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 934/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 66%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1030/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 68%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1120/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 69%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1216/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 71%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1312/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 72%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1397/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 74%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1493/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 75%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1589/7143 usable descriptors.
+Mar 23 19:22:57.000 [notice] Bootstrapped 77%: Loading relay descriptors.
+Mar 23 19:22:57.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1676/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] Bootstrapped 78%: Loading relay descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1772/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1868/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1964/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2055/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2151/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2247/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2343/7143 usable descriptors.
+Mar 23 19:22:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2435/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2531/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2627/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2723/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2819/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2911/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2995/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3091/7143 usable descriptors.
+Mar 23 19:22:59.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3187/7143 usable descriptors.
+Mar 23 19:23:00.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3279/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3375/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3471/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3567/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3663/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3746/7143 usable descriptors.
+Mar 23 19:23:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3842/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3929/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4024/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4119/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4215/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4222/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4318/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4412/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4508/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4515/7143 usable descriptors.
+Mar 23 19:23:02.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4610/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4698/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4794/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4802/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4809/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4905/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5001/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5097/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5103/7143 usable descriptors.
+Mar 23 19:23:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5199/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5292/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5298/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5306/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5402/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5491/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5581/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5677/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5766/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5854/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5950/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6039/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6043/7143 usable descriptors.
+Mar 23 19:23:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6139/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6234/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6330/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6426/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6522/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6528/7143 usable descriptors.
+Mar 23 19:23:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6570/7143 usable descriptors.
+Mar 23 19:23:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6658/7143 usable descriptors.
+Mar 23 19:23:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6754/7143 usable descriptors.
+Mar 23 19:23:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6760/7143 usable descriptors.
+Mar 23 19:23:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6767/7143 usable descriptors.
+Mar 23 19:23:06.000 [notice] We now have enough directory information to build circuits.
+Mar 23 19:23:06.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 19:23:06.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 19:23:10.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 19:23:11.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 19:23:11.000 [notice] Bootstrapped 100%: Done.
+Mar 23 19:23:49.000 [warn] Received http status code 404 ("Not found") from server '217.12.199.208:22' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:23:56.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 19:24:30.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:24:30.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 19:24:30.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 19:24:30.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 19:24:30.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 19:24:30.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 19:24:30.000 [notice] Reloaded microdescriptor cache.  Found 7140 descriptors.
+Mar 23 19:24:31.000 [notice] We now have enough directory information to build circuits.
+Mar 23 19:24:31.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 19:24:31.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 19:24:32.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 5 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 19:24:34.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 19:24:34.000 [warn] Received http status code 404 ("Not found") from server '163.172.131.88:993' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:24:35.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 19:24:35.000 [notice] Bootstrapped 100%: Done.
+Mar 23 19:25:30.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 19:26:03.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:26:03.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 19:26:03.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 19:26:03.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 19:26:03.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 19:26:03.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 19:26:03.000 [notice] Reloaded microdescriptor cache.  Found 7140 descriptors.
+Mar 23 19:26:04.000 [notice] We now have enough directory information to build circuits.
+Mar 23 19:26:04.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 19:26:04.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 19:26:05.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 5 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 19:26:07.000 [warn] Received http status code 404 ("Not found") from server '5.135.189.91:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:26:07.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 19:26:08.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 19:26:08.000 [notice] Bootstrapped 100%: Done.
+Mar 23 19:29:11.000 [warn] Received http status code 404 ("Not found") from server '185.21.216.140:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:29:55.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 19:30:27.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:30:27.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 19:30:27.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 19:30:27.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 19:30:27.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 19:30:27.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 19:30:27.000 [notice] Reloaded microdescriptor cache.  Found 7140 descriptors.
+Mar 23 19:30:28.000 [notice] We now have enough directory information to build circuits.
+Mar 23 19:30:28.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 19:30:28.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 19:30:29.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 3 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 19:30:31.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 19:30:33.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 19:30:33.000 [notice] Bootstrapped 100%: Done.
+Mar 23 19:31:33.000 [warn] Received http status code 404 ("Not found") from server '217.79.179.177:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:35:54.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 19:36:25.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:36:25.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 19:36:25.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 19:36:25.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 19:36:25.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 19:36:25.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 19:36:25.000 [notice] Reloaded microdescriptor cache.  Found 7140 descriptors.
+Mar 23 19:36:26.000 [notice] We now have enough directory information to build circuits.
+Mar 23 19:36:26.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 19:36:26.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 19:36:27.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 3 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 19:36:29.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 19:36:31.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 19:36:31.000 [notice] Bootstrapped 100%: Done.
+Mar 23 19:37:32.000 [warn] Received http status code 404 ("Not found") from server '213.61.66.116:9003' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 19:39:03.000 [notice] New control connection opened.
+Mar 23 19:39:03.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:39:03.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 19:42:38.000 [warn] Received http status code 404 ("Not found") from server '213.165.83.73:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 20:28:15.000 [notice] Your system clock just jumped 2493 seconds forward; assuming established circuits no longer work.
+Mar 23 20:37:58.000 [notice] New control connection opened.
+Mar 23 20:37:58.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:37:58.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:38:20.000 [notice] New control connection opened.
+Mar 23 20:38:20.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:38:20.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:38:37.000 [notice] New control connection opened.
+Mar 23 20:38:37.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:38:37.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:23.000 [notice] New control connection opened.
+Mar 23 20:40:23.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:23.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:36.000 [notice] New control connection opened.
+Mar 23 20:40:36.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:36.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:44.000 [notice] New control connection opened.
+Mar 23 20:40:44.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:40:44.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:41:02.000 [notice] New control connection opened.
+Mar 23 20:41:02.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:41:02.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:41:13.000 [notice] New control connection opened.
+Mar 23 20:41:13.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:41:13.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:43:43.000 [notice] New control connection opened.
+Mar 23 20:43:43.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:43:43.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:43:52.000 [notice] New control connection opened.
+Mar 23 20:43:52.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:43:52.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:12.000 [notice] New control connection opened.
+Mar 23 20:44:12.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:12.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:21.000 [notice] New control connection opened.
+Mar 23 20:44:21.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:21.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:58.000 [notice] New control connection opened.
+Mar 23 20:44:58.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:44:58.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:45:14.000 [notice] New control connection opened.
+Mar 23 20:45:14.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:45:14.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:46:08.000 [notice] New control connection opened.
+Mar 23 20:46:08.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:46:08.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:46:12.000 [notice] New control connection opened.
+Mar 23 20:46:12.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:46:12.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:47:02.000 [notice] New control connection opened.
+Mar 23 20:47:02.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:47:02.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:47:14.000 [notice] New control connection opened.
+Mar 23 20:47:14.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:47:14.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:49:33.000 [notice] New control connection opened.
+Mar 23 20:49:33.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:49:33.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:50:47.000 [notice] New control connection opened.
+Mar 23 20:50:47.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:50:47.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:13.000 [notice] New control connection opened.
+Mar 23 20:52:13.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:13.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:47.000 [notice] New control connection opened.
+Mar 23 20:52:47.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:47.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:57.000 [notice] New control connection opened.
+Mar 23 20:52:57.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:52:57.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 20:58:48.000 [notice] New control connection opened.
+Mar 23 20:58:49.000 [warn] Received http status code 404 ("Not found") from server '91.121.165.10:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 20:58:51.000 [notice] New control connection opened.
+Mar 23 20:59:01.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 21:00:11.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:00:11.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 21:00:11.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 21:00:11.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 21:00:12.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 21:00:12.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 21:00:12.000 [notice] Reloaded microdescriptor cache.  Found 7140 descriptors.
+Mar 23 21:00:12.000 [notice] We now have enough directory information to build circuits.
+Mar 23 21:00:12.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 21:00:12.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 21:00:13.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 3 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 21:00:17.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 21:00:18.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 21:00:18.000 [notice] Bootstrapped 100%: Done.
+Mar 23 21:00:19.000 [warn] Received http status code 404 ("Not found") from server '198.46.153.121:9035' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 21:00:37.000 [notice] New control connection opened.
+Mar 23 21:00:40.000 [notice] New control connection opened.
+Mar 23 21:01:40.000 [notice] New control connection opened.
+Mar 23 21:01:42.000 [notice] New control connection opened.
+Mar 23 21:02:19.000 [warn] Received http status code 404 ("Not found") from server '185.19.93.99:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 21:05:49.000 [notice] New control connection opened.
+Mar 23 21:06:08.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 21:06:58.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:06:58.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 21:06:58.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 21:06:58.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 21:06:58.000 [notice] Reloaded microdescriptor cache.  Found 0 descriptors.
+Mar 23 21:06:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 21:06:59.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 21:06:59.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 2 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 21:06:59.000 [notice] Bootstrapped 10%: Finishing handshake with directory server.
+Mar 23 21:07:01.000 [notice] Bootstrapped 15%: Establishing an encrypted directory connection.
+Mar 23 21:07:02.000 [notice] Bootstrapped 20%: Asking for networkstatus consensus.
+Mar 23 21:07:02.000 [notice] Bootstrapped 25%: Loading networkstatus consensus.
+Mar 23 21:07:09.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 21:07:10.000 [notice] I learned some more directory information, but not enough to build a circuit: We have no usable consensus.
+Mar 23 21:07:13.000 [notice] Bootstrapped 40%: Loading authority key certs.
+Mar 23 21:07:14.000 [notice] Bootstrapped 45%: Asking for relay descriptors.
+Mar 23 21:07:14.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 0/7158 usable descriptors.
+Mar 23 21:07:14.000 [notice] We'd like to launch a circuit to handle a connection, but we already have 32 general-purpose client circuits pending. Waiting until some finish.
+Mar 23 21:07:17.000 [notice] Bootstrapped 50%: Loading relay descriptors.
+Mar 23 21:07:19.000 [notice] Bootstrapped 51%: Loading relay descriptors.
+Mar 23 21:07:19.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 89/7158 usable descriptors.
+Mar 23 21:07:20.000 [notice] Bootstrapped 52%: Loading relay descriptors.
+Mar 23 21:07:20.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 170/7158 usable descriptors.
+Mar 23 21:07:21.000 [notice] Bootstrapped 54%: Loading relay descriptors.
+Mar 23 21:07:21.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 258/7158 usable descriptors.
+Mar 23 21:07:22.000 [notice] Bootstrapped 55%: Loading relay descriptors.
+Mar 23 21:07:22.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 347/7158 usable descriptors.
+Mar 23 21:07:22.000 [notice] Bootstrapped 57%: Loading relay descriptors.
+Mar 23 21:07:22.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 438/7158 usable descriptors.
+Mar 23 21:07:22.000 [notice] Bootstrapped 58%: Loading relay descriptors.
+Mar 23 21:07:22.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 521/7158 usable descriptors.
+Mar 23 21:07:22.000 [notice] Bootstrapped 59%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 608/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 61%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 696/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 62%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 787/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 64%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 883/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 65%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 970/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 67%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1066/7158 usable descriptors.
+Mar 23 21:07:23.000 [notice] Bootstrapped 68%: Loading relay descriptors.
+Mar 23 21:07:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1158/7158 usable descriptors.
+Mar 23 21:07:25.000 [notice] Bootstrapped 70%: Loading relay descriptors.
+Mar 23 21:07:25.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1249/7158 usable descriptors.
+Mar 23 21:07:31.000 [notice] Bootstrapped 71%: Loading relay descriptors.
+Mar 23 21:07:31.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1338/7158 usable descriptors.
+Mar 23 21:07:33.000 [notice] Bootstrapped 73%: Loading relay descriptors.
+Mar 23 21:07:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1425/7158 usable descriptors.
+Mar 23 21:07:33.000 [notice] Bootstrapped 74%: Loading relay descriptors.
+Mar 23 21:07:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1511/7158 usable descriptors.
+Mar 23 21:07:33.000 [notice] Bootstrapped 75%: Loading relay descriptors.
+Mar 23 21:07:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1599/7158 usable descriptors.
+Mar 23 21:07:33.000 [notice] Bootstrapped 77%: Loading relay descriptors.
+Mar 23 21:07:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1690/7158 usable descriptors.
+Mar 23 21:07:33.000 [notice] Bootstrapped 78%: Loading relay descriptors.
+Mar 23 21:07:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1774/7158 usable descriptors.
+Mar 23 21:07:34.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1866/7158 usable descriptors.
+Mar 23 21:07:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 1950/7158 usable descriptors.
+Mar 23 21:07:41.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2037/7158 usable descriptors.
+Mar 23 21:07:43.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2128/7158 usable descriptors.
+Mar 23 21:07:44.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2217/7158 usable descriptors.
+Mar 23 21:07:44.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2313/7158 usable descriptors.
+Mar 23 21:07:45.000 [notice] New control connection opened.
+Mar 23 21:07:46.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2397/7158 usable descriptors.
+Mar 23 21:07:46.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2479/7158 usable descriptors.
+Mar 23 21:07:46.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2503/7158 usable descriptors.
+Mar 23 21:07:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2594/7158 usable descriptors.
+Mar 23 21:07:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2676/7158 usable descriptors.
+Mar 23 21:07:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2762/7158 usable descriptors.
+Mar 23 21:08:17.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2768/7158 usable descriptors.
+Mar 23 21:08:20.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 10; recommendation warn)
+Mar 23 21:08:20.000 [warn] 10 connections have failed:
+Mar 23 21:08:20.000 [warn]  9 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:20.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:20.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 11; recommendation warn)
+Mar 23 21:08:20.000 [warn] 11 connections have failed:
+Mar 23 21:08:20.000 [warn]  10 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:20.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:20.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 12; recommendation warn)
+Mar 23 21:08:20.000 [warn] 12 connections have failed:
+Mar 23 21:08:20.000 [warn]  11 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:20.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:20.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 13; recommendation warn)
+Mar 23 21:08:20.000 [warn] 13 connections have failed:
+Mar 23 21:08:20.000 [warn]  12 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:20.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:23.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2854/7158 usable descriptors.
+Mar 23 21:08:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 2946/7158 usable descriptors.
+Mar 23 21:08:29.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 14; recommendation warn)
+Mar 23 21:08:29.000 [warn] 14 connections have failed:
+Mar 23 21:08:29.000 [warn]  13 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:29.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:29.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3031/7158 usable descriptors.
+Mar 23 21:08:40.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3117/7158 usable descriptors.
+Mar 23 21:08:41.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 15; recommendation warn)
+Mar 23 21:08:41.000 [warn] 15 connections have failed:
+Mar 23 21:08:41.000 [warn]  14 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:41.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:41.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 16; recommendation warn)
+Mar 23 21:08:41.000 [warn] 16 connections have failed:
+Mar 23 21:08:41.000 [warn]  15 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:41.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:43.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3205/7158 usable descriptors.
+Mar 23 21:08:43.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3208/7158 usable descriptors.
+Mar 23 21:08:43.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3304/7158 usable descriptors.
+Mar 23 21:08:45.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3392/7158 usable descriptors.
+Mar 23 21:08:49.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3485/7158 usable descriptors.
+Mar 23 21:08:51.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 17; recommendation warn)
+Mar 23 21:08:51.000 [warn] 17 connections have failed:
+Mar 23 21:08:51.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:51.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:52.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection refused; CONNECTREFUSED; count 18; recommendation warn)
+Mar 23 21:08:52.000 [warn] 17 connections have failed:
+Mar 23 21:08:52.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:52.000 [warn]  1 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:52.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3565/7158 usable descriptors.
+Mar 23 21:08:54.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3585/7158 usable descriptors.
+Mar 23 21:08:54.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection refused; CONNECTREFUSED; count 19; recommendation warn)
+Mar 23 21:08:54.000 [warn] 18 connections have failed:
+Mar 23 21:08:54.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:08:54.000 [warn]  2 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:08:55.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3681/7158 usable descriptors.
+Mar 23 21:09:02.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection refused; CONNECTREFUSED; count 20; recommendation warn)
+Mar 23 21:09:02.000 [warn] 19 connections have failed:
+Mar 23 21:09:02.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:09:02.000 [warn]  3 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:09:03.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3730/7158 usable descriptors.
+Mar 23 21:09:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3826/7158 usable descriptors.
+Mar 23 21:09:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3917/7158 usable descriptors.
+Mar 23 21:09:06.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 3971/7158 usable descriptors.
+Mar 23 21:09:10.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4058/7158 usable descriptors.
+Mar 23 21:09:10.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4132/7158 usable descriptors.
+Mar 23 21:09:11.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4228/7158 usable descriptors.
+Mar 23 21:09:12.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4313/7158 usable descriptors.
+Mar 23 21:09:13.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4348/7158 usable descriptors.
+Mar 23 21:09:13.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4399/7158 usable descriptors.
+Mar 23 21:09:16.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4495/7158 usable descriptors.
+Mar 23 21:09:17.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4591/7158 usable descriptors.
+Mar 23 21:09:18.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4596/7158 usable descriptors.
+Mar 23 21:09:18.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4600/7158 usable descriptors.
+Mar 23 21:09:21.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4696/7158 usable descriptors.
+Mar 23 21:09:26.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4783/7158 usable descriptors.
+Mar 23 21:09:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4837/7158 usable descriptors.
+Mar 23 21:09:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4839/7158 usable descriptors.
+Mar 23 21:09:28.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4847/7158 usable descriptors.
+Mar 23 21:09:29.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 4943/7158 usable descriptors.
+Mar 23 21:09:30.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5003/7158 usable descriptors.
+Mar 23 21:09:31.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5099/7158 usable descriptors.
+Mar 23 21:09:57.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection refused; CONNECTREFUSED; count 21; recommendation warn)
+Mar 23 21:09:57.000 [warn] 20 connections have failed:
+Mar 23 21:09:57.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:09:57.000 [warn]  4 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:09:58.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection refused; CONNECTREFUSED; count 22; recommendation warn)
+Mar 23 21:09:58.000 [warn] 21 connections have failed:
+Mar 23 21:09:58.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:09:58.000 [warn]  5 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:10:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5132/7158 usable descriptors.
+Mar 23 21:10:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5132/7158 usable descriptors.
+Mar 23 21:10:12.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection timed out; TIMEOUT; count 23; recommendation warn)
+Mar 23 21:10:12.000 [warn] 22 connections have failed:
+Mar 23 21:10:12.000 [warn]  16 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:10:12.000 [warn]  6 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:10:20.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 24; recommendation warn)
+Mar 23 21:10:20.000 [warn] 24 connections have failed:
+Mar 23 21:10:20.000 [warn]  17 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:10:20.000 [warn]  7 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:10:21.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5217/7158 usable descriptors.
+Mar 23 21:10:27.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5295/7158 usable descriptors.
+Mar 23 21:10:28.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5379/7158 usable descriptors.
+Mar 23 21:10:29.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5406/7158 usable descriptors.
+Mar 23 21:10:29.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5407/7158 usable descriptors.
+Mar 23 21:10:30.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5495/7158 usable descriptors.
+Mar 23 21:10:31.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5587/7158 usable descriptors.
+Mar 23 21:10:32.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5602/7158 usable descriptors.
+Mar 23 21:10:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5607/7158 usable descriptors.
+Mar 23 21:10:33.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5619/7158 usable descriptors.
+Mar 23 21:10:34.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5682/7158 usable descriptors.
+Mar 23 21:10:34.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5732/7158 usable descriptors.
+Mar 23 21:10:34.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection timed out; TIMEOUT; count 25; recommendation warn)
+Mar 23 21:10:34.000 [warn] 24 connections have failed:
+Mar 23 21:10:34.000 [warn]  17 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:10:34.000 [warn]  7 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:10:35.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5765/7158 usable descriptors.
+Mar 23 21:10:36.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5799/7158 usable descriptors.
+Mar 23 21:10:37.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5871/7158 usable descriptors.
+Mar 23 21:10:37.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5881/7158 usable descriptors.
+Mar 23 21:10:37.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 5959/7158 usable descriptors.
+Mar 23 21:10:37.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6046/7158 usable descriptors.
+Mar 23 21:10:38.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6047/7158 usable descriptors.
+Mar 23 21:10:38.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6053/7158 usable descriptors.
+Mar 23 21:10:38.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6059/7158 usable descriptors.
+Mar 23 21:10:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6065/7158 usable descriptors.
+Mar 23 21:10:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6079/7158 usable descriptors.
+Mar 23 21:10:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6094/7158 usable descriptors.
+Mar 23 21:10:39.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6126/7158 usable descriptors.
+Mar 23 21:10:40.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6135/7158 usable descriptors.
+Mar 23 21:10:41.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6141/7158 usable descriptors.
+Mar 23 21:10:42.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6228/7158 usable descriptors.
+Mar 23 21:10:44.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6239/7158 usable descriptors.
+Mar 23 21:10:46.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6328/7158 usable descriptors.
+Mar 23 21:10:47.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6329/7158 usable descriptors.
+Mar 23 21:10:48.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6339/7158 usable descriptors.
+Mar 23 21:10:54.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6401/7158 usable descriptors.
+Mar 23 21:10:58.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6487/7158 usable descriptors.
+Mar 23 21:10:59.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (Connection timed out; TIMEOUT; count 26; recommendation warn)
+Mar 23 21:10:59.000 [warn] 25 connections have failed:
+Mar 23 21:10:59.000 [warn]  17 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:10:59.000 [warn]  8 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:11:00.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6500/7158 usable descriptors.
+Mar 23 21:11:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6514/7158 usable descriptors.
+Mar 23 21:11:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6521/7158 usable descriptors.
+Mar 23 21:11:01.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6528/7158 usable descriptors.
+Mar 23 21:11:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6552/7158 usable descriptors.
+Mar 23 21:11:04.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6559/7158 usable descriptors.
+Mar 23 21:11:36.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6575/7159 usable descriptors.
+Mar 23 21:12:05.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6610/7159 usable descriptors.
+Mar 23 21:12:14.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 27; recommendation warn)
+Mar 23 21:12:14.000 [warn] 27 connections have failed:
+Mar 23 21:12:14.000 [warn]  18 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:12:14.000 [warn]  9 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:12:16.000 [warn] Problem bootstrapping. Stuck at 78%: Loading relay descriptors. (DONE; DONE; count 28; recommendation warn)
+Mar 23 21:12:16.000 [warn] 28 connections have failed:
+Mar 23 21:12:16.000 [warn]  18 connections died in state handshaking (TLS) with SSL state unknown state in HANDSHAKE
+Mar 23 21:12:16.000 [warn]  9 connections died in state connect()ing with SSL state (No SSL object)
+Mar 23 21:12:16.000 [warn]  1 connections died in state handshaking (Tor, v3 handshake) with SSL state SSL negotiation finished successfully in OPEN
+Mar 23 21:12:19.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6695/7159 usable descriptors.
+Mar 23 21:12:19.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6705/7159 usable descriptors.
+Mar 23 21:12:22.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6720/7159 usable descriptors.
+Mar 23 21:12:24.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6735/7159 usable descriptors.
+Mar 23 21:12:36.000 [notice] I learned some more directory information, but not enough to build a circuit: We have only 6756/7159 usable descriptors.
+Mar 23 21:12:44.000 [notice] We now have enough directory information to build circuits.
+Mar 23 21:12:44.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 21:12:47.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 21:12:52.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 21:13:08.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 21:13:08.000 [notice] Bootstrapped 100%: Done.
+Mar 23 21:20:22.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 21:20:22.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:20:22.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 21:20:22.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 21:20:22.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 21:20:22.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 21:20:22.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 21:20:23.000 [notice] Reloaded microdescriptor cache.  Found 7150 descriptors.
+Mar 23 21:20:23.000 [notice] We now have enough directory information to build circuits.
+Mar 23 21:20:23.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 21:20:23.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 21:20:24.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 3 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 21:20:29.000 [notice] New control connection opened.
+Mar 23 21:20:31.000 [notice] New control connection opened.
+Mar 23 21:20:32.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 21:20:34.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 21:20:34.000 [notice] Bootstrapped 100%: Done.
+Mar 23 21:22:02.000 [warn] Received http status code 404 ("Not found") from server '89.163.247.43:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 21:23:06.000 [notice] New control connection opened.
+Mar 23 21:26:47.000 [notice] New control connection opened.
+Mar 23 21:27:37.000 [warn] Received http status code 404 ("Not found") from server '46.101.151.222:443' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 21:33:44.000 [notice] Catching signal TERM, exiting cleanly.
+Mar 23 21:33:44.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:33:44.000 [warn] You are running Tor as root. You don't need to, and you probably shouldn't.
+Mar 23 21:33:44.000 [notice] This version of OpenSSL has a known-good EVP counter-mode implementation. Using it.
+Mar 23 21:33:44.000 [notice] OpenSSL OpenSSL 1.0.1f 6 Jan 2014 looks like version 0.9.8m or later; I will try SSL_OP to enable renegotiation
+Mar 23 21:33:45.000 [notice] Bootstrapped 5%: Connecting to directory server.
+Mar 23 21:33:45.000 [warn] Please upgrade! This version of Tor (0.2.3.25) is obsolete, according to the directory authorities. Recommended versions are: 0.2.4.23,0.2.4.24,0.2.4.25,0.2.4.26,0.2.4.27,0.2.5.8-rc,0.2.5.9-rc,0.2.5.10,0.2.5.11,0.2.5.12,0.2.6.5-rc,0.2.6.6,0.2.6.7,0.2.6.8,0.2.6.9,0.2.6.10,0.2.7.1-alpha,0.2.7.2-alpha,0.2.7.3-rc,0.2.7.4-rc,0.2.7.5,0.2.7.6,0.2.8.1-alpha
+Mar 23 21:33:45.000 [notice] Reloaded microdescriptor cache.  Found 7150 descriptors.
+Mar 23 21:33:45.000 [notice] We now have enough directory information to build circuits.
+Mar 23 21:33:45.000 [notice] Bootstrapped 80%: Connecting to the Tor network.
+Mar 23 21:33:45.000 [notice] Bootstrapped 85%: Finishing handshake with first hop.
+Mar 23 21:33:46.000 [notice] Heartbeat: Tor's uptime is 0:00 hours, with 3 circuits open. I've sent 0 kB and received 0 kB.
+Mar 23 21:33:49.000 [notice] Bootstrapped 90%: Establishing a Tor circuit.
+Mar 23 21:33:50.000 [warn] Received http status code 404 ("Not found") from server '88.198.192.156:443' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".
+Mar 23 21:33:53.000 [notice] Tor has successfully opened a circuit. Looks like client functionality is working.
+Mar 23 21:33:53.000 [notice] Bootstrapped 100%: Done.
+Mar 23 21:34:05.000 [notice] New control connection opened.
+Mar 23 21:34:05.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:34:05.000 [notice] Tor 0.2.3.25 (git-17c24b3118224d65) opening log file.
+Mar 23 21:35:56.000 [warn] Received http status code 404 ("Not found") from server '83.162.202.182:9001' while fetching "/tor/keys/fp/27B6B5996C426270A5C95488AA5BCEB6BCC86956".

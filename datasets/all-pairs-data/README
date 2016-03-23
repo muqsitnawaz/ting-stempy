@@ -1,0 +1,69 @@
+Overview
+========
+
+This dataset was used in the application section of our IMC 2015 paper (1) to
+demonstrate the ability to speed up a classic deanonymization attack on Tor,
+and (2) to show the existence of TIVs and how they can be exploited to construct
+lower latency Tor circuits. Please see the paper for more details.
+
+We chose 50 relays from the live Tor network (that we do not control) and used
+Ting to measure the latency between all pairs of them.
+
+
+
+Data Files
+==========
+
+This section describes the format of each data file in this directory.
+
+[relays-details.json]: Details document from Onionoo listing all the available
+information for the 50 relays. The format of this document is described at 
+https://onionoo.torproject.org/protocol.html
+
+
+[relays-bandwidth.txt]: Bandwidth information parsed from relays-details.json
+that was used in the realistic weighted-node selection version of the
+deanonymization application in section 5.1.1 of the paper.
+
+  ip consensus_weight consensus_weight_fraction guard_probability middle_probability exit_probability
+
+
+[all-pairs-tings.json]: Raw json output directly from running ting on all pairs
+of the 50 relays. 
+
+  {
+    "measurements": { 
+      "x" : [...], // samples from circuit wxz
+      "y" : [...], // samples from circuit wyz
+      "xy" : [...] // samples from circuit wxyz
+    },
+    "ips" : [ip_x, ip_y],
+    "fps" : [fp_x, fp_y], // fp = unique tor fingerprint id
+    "time" : {
+      "build_x" : ..., // time to build circuit wxz
+      "ting_x" : ..., // time to measure circuit wxz
+      "build_y" : ...,
+      "ting_y" : ...,
+      "build_xy" : ...,
+      "ting_xy" : ...,
+      "total" : ...
+    },
+    "estimate" : ... // min(xy) - .5min(x) - .5min(y), used in planetlab-summary.txt
+  }
+
+
+[all-pairs-rtt.csv]: Just the ting-measured RTT ("estimate" field from json 
+output above) between all pairs.
+
+  (format described in column and row headers of CSV) 
+
+
+
+
+Measurement Details
+===================
+
+All measurements were taken on November 8 and 9, 2014.
+
+
+
