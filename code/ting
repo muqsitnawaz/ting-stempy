@@ -115,6 +115,8 @@ class TingClient():
 
 		# Attaches a specific circuit to the given stream (event)
 		def attach_stream(event):
+
+			print("attaching stream")
 			try:
 				self.controller.attach_stream(event.id, self.curr_cid)
 			except (OperationFailed, InvalidRequest), e:
@@ -122,13 +124,15 @@ class TingClient():
 				print("\tResponse Code: %s " % str(e.code))
 				print("\tMessage: %s" % str(e.message))
 				self.controller.close_stream(event.id)
+			print("attaching stream done")
 
 		# An event listener, called whenever StreamEvent status changes
 		def probe_stream(event):
 			if event.status == 'DETACHED':
 				warning("Stream Detached from circuit {0}...".format(self.curr_cid))
 				print("\t" + str(vars(event)))
-			if event.status == 'NEW' and event.purpose == 'USER':
+			# if event.status == 'NEW' and event.purpose == 'USER':
+			if event.status == "NEW":
 				attach_stream(event)
 
 		controller.add_event_listener(probe_stream, EventType.STREAM)
@@ -140,6 +144,10 @@ class TingClient():
 		socket.socket = socks.socksocket
 		sock = socks.socksocket()
 		sock.settimeout(self.socks_timeout)
+
+		print("printing socket")
+		print(dir(sock))
+		print("printing socket done")
 		return sock
 
 	def parse_relay_list(self, relay_source, relay_cache_time):
@@ -320,8 +328,6 @@ class TingClient():
 			print(result)
 			print("debugging done")
 
-			pair_ips = (result['x']['fp'], result['y']['fp'])
-
 			result['time_start'] = str(datetime.now()).split()[1]
 			result['trials'] = []
 
@@ -335,25 +341,44 @@ class TingClient():
 					trial['start_time'] = str(datetime.now())
 					circs = self.generate_circuits(pair_fps)
 
+					print("printing circuits")
+					print(circs);
+					print("printing circuits done")
+
+					print("entering circuit loop")
 					for (circ, name) in circs:
 						trial[name] = {}
 						log("Tinging " + name)
+						print("Tinging " + name)
+
 						start_build = time.time()
 						cid = self.build_circuits(circ)
 						self.curr_cid = cid
 						trial[name]['build_time'] = round((time.time() - start_build), 5)
 
+						print("print time to build circuit")
+						print(trial[name]['build_time'])
+						print("print time to build circuit done")
+
 						self.tor_sock = self.setup_proxy()
 
 						start_ting = time.time()
+
+						print("tinging")
 						ting = self.ting(name)
+						print("tinging done")
+						
 						trial[name]['ting_time'] = round((time.time() - start_ting), 5)
 						trial[name]['measurements'] = ting
+
 						log("Ting complete, min for this circuit: %fms" % min(ting))
+						print("Ting complete, min for this circuit: %fms" % min(ting))
 
 					trial['rtt'] = min(trial['xy']['measurements']) - (min(trial['x']['measurements']) / 2) - (min(trial['y']['measurements']) / 2)
 					success("Predicted RTT between {0}->{1}: {2}ms".format(x, y, trial['rtt']))
 					result['trials'].append(trial)
+
+					print("exiting circuit loop")
 				consecutive_fails = 0
 
 			except Exception as err:
