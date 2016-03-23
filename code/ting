@@ -147,7 +147,7 @@ class TingClient():
 
 		print("printing socket")
 		print(dir(sock))
-		print("printing socket done")
+		print("printing socket done\n")
 		return sock
 
 	def parse_relay_list(self, relay_source, relay_cache_time):
@@ -280,7 +280,10 @@ class TingClient():
 				arr.append((end_time - start_time))
 				num_seen += 1
 
+			print("sending data on tor sock")
 			self.tor_sock.send(done)
+			print("sending data on tor sock done\n")
+
 			try:
 				self.tor_sock.shutdown(socket.SHUT_RDWR)
 			except:
@@ -326,7 +329,7 @@ class TingClient():
 
 			print("debugging")
 			print(result)
-			print("debugging done")
+			print("debugging done\n")
 
 			result['time_start'] = str(datetime.now()).split()[1]
 			result['trials'] = []
@@ -358,7 +361,7 @@ class TingClient():
 
 						print("print time to build circuit")
 						print(trial[name]['build_time'])
-						print("print time to build circuit done")
+						print("print time to build circuit done\n")
 
 						self.tor_sock = self.setup_proxy()
 
@@ -366,7 +369,7 @@ class TingClient():
 
 						print("tinging")
 						ting = self.ting(name)
-						print("tinging done")
+						print("tinging done\n")
 						
 						trial[name]['ting_time'] = round((time.time() - start_ting), 5)
 						trial[name]['measurements'] = ting
